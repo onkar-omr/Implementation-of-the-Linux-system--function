@@ -1,0 +1,5 @@
+# Implementation-of-the-system-function
+C code to Implemented a function similar to system() function to execute shell commands using system calls.
+
+
+Implemented function similar to system() function to execute shell commands using system calls. Created child process using fork(). The child process executes shell command invoking function execlp(). The parent waits for the child to complete its execution using wait(). Upon successful termination of child, the status of the child is returned to parent through WEXITSTATUS(). Robust error handling was implemented including signal handling for SIGINT.Implemented function similar to system() function to execute shell commands using system calls. Created child process using fork(). The child process executes shell command invoking function execlp(). The parent waits for the child to complete its execution using wait(). Upon successful termination of child, the status of the child is returned to parent through WEXITSTATUS(). Robust error handling was implemented including signal handling for SIGINT.
